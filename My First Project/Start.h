@@ -10,6 +10,17 @@
 
 @interface Start : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *lblMessage;
+
+@property (weak, nonatomic) IBOutlet UIButton *btn1;
+
+@property (weak, nonatomic) IBOutlet UIButton *btn2;
+@property (weak, nonatomic) IBOutlet UIImageView *ImgUser;
+
+- (IBAction)btn1Pressed:(id)sender;
+
+//@property (weak, nonatomic) IBOutlet UIButton *btn2Pressed;
+- (IBAction)btn2Pressed:(id)sender;
 
 @end
 
